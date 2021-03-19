@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//preprocessor directive to include standard input output function headerfile
 int main()
 {
     int num1,num2; //variable declaration
