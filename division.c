@@ -1,7 +1,7 @@
 #include<stdio.h> //preprocessor directive to include standard input output function headerfile
 int main()
 {
-      int num1,num2,div; // declaration of variables ie. num1,num2,div
+      int num1,num2,div; // declaration of integers variables ie. num1,num2,div
       printf("\tEnter Two Numbers\n");//printf function to display the message on screen inside the double quotes
       printf("Enter First Number  : ");//printf function to display the message on screen inside the double quotes
       scanf("%d", &num1);//scanf function for taking the input values from user
