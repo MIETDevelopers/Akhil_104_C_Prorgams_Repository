@@ -2,7 +2,7 @@
 #include <math.h> //preprocessor directive to include math function(ie. sqrt) headerfile
 
 int main() {
-	float x1, y1, x2, y2, gdistance; // declaration of variables
+	float x1, y1, x2, y2, gdistance; // declaration of float variables
 	printf("Input x1: ");//printf function to display the message inside the double quotes
 	scanf("%f", &x1);//scanf function for taking the input values from user
 	printf("Input y1: ");//printf function to display the message inside the double quotes
