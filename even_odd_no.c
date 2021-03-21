@@ -4,7 +4,7 @@
 int main()
 {
    
-   int num;// intiger variable declaration
+   int num;// integer variable declaration
  
    printf("Enter an integer: "); //printf function for printing the message in double qoutes
    scanf("%d",&num);//scanf function for taking the input values from user
