@@ -6,7 +6,7 @@
 int main()
 {
     int n, i, flag = 1;// integer variables declaration 
- 
+
     
     printf("Enter a number: \n");  // Ask user for input
  
