@@ -27,10 +27,10 @@ int main()
         flag = 0;
  
     if (flag == 1) {
-        printf("%d is a prime number", n);
+        printf("%d is a prime number", n);//printf function for printing the message if number is prime
     }
     else {
-        printf("%d is not a prime number", n);
+        printf("%d is not a prime number", n);//printf function for printing the message if number is not prime
     }
  
     return 0;
