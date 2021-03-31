@@ -15,3 +15,4 @@ void displayString(char str[])//string defination
 	//This will give output.
     printf("String Output: ");//print the string output
     puts(str);//print string
+}
