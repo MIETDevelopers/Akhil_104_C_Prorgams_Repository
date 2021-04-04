@@ -19,7 +19,7 @@ scanf("%d", &array[c]);//scanf function for taking the input values from user
         if (array[c] > maximum)
         {
         maximum  = array[c];
-        location = c+1;
+        location = c+1; 
         }
     }
     
