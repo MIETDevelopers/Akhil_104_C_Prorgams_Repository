@@ -21,4 +21,4 @@ if(ans==num)
 printf("%d is an Armstrong number.",num);//printf function for printing the number is armstrong
 else
 printf("%d is not an Armstrong number.",num);//printf function for printing the number is not prime
-}
+} 
