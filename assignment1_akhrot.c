@@ -1,13 +1,16 @@
+// to find the cheapest price of the walnut
+// author: akhil sumbria
+
 #include <stdio.h>
 #include <stdlib.h>
 
-struct info
+struct details
 {
     char name[30];
     int price;
-    struct info *next;
+    struct details *next;
 };
-struct info *disp, *head;
+struct details *disp, *head;
 
 void addrecord();
 void display();
@@ -55,8 +58,8 @@ int main()
 
 void addrecord()
 {
-    struct info *add;
-    add = (struct info*)malloc(sizeof(struct info));
+    struct details *add;
+    add = (struct details*)malloc(sizeof(struct details));
 
     printf("\n Enter the name of dealer: ");
     scanf("%s", &add->name);
@@ -72,7 +75,7 @@ void addrecord()
     }
     else
     {
-        struct info *temp = head;
+        struct details *temp = head;
 
         while (temp->next != NULL && temp->next->price < add->price)
         {
@@ -102,7 +105,7 @@ return;
 }
 void less_amount()
 {
-    struct info *temp1 = head;
+    struct details *temp1 = head;
 
     while (temp1->next != NULL)
     {
